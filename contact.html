@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact / About Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="watched.html">Movies Watched</a>
+        <a href="plan.html">Plan to Watch</a>
+        <a href="contact.html">Contact / About Me</a>
+    </nav>
+
+    <!-- Page Content Starts Here -->
+    <h1>Contact Me</h1>
+
+    <p>Got a movie suggestion or feedback? I’d love to hear from you! Fill out the form below:</p>
+
+    <form id="contactForm">
+      <label>Name:</label><br>
+      <input type="text" id="name" placeholder="Your Name"><br><br>
+
+      <label>Email:</label><br>
+      <input type="text" id="email" placeholder="Your Email"><br><br>
+
+      <label>Message:</label><br>
+      <textarea id="message" rows="4" cols="40" placeholder="Your message..."></textarea><br><br>
+
+      <button type="button" onclick="validateForm()">Submit</button>
+    </form>
+
+    <hr>
+
+    <h1>About Me</h1>
+    <p>Sup. My name is Franklin. Watching movies is one of my favorite hobbies. 
+       I’ve been watching and loving movies since I first went to a movie theater at 2 years old to see <em>Spider-Man (2002)</em>.</p>
+
+    <p>I enjoy tracking every movie I’ve watched and plan to watch in 2025 through this website. 
+       My favorite genres include action, animation, horror, and superhero films.</p>
+       
+    <p>I hope this site inspires others to explore some great movies, too!</p>
+    
+    <!-- Popular Movies Image -->
+    <h2>🎬 Popular Movies</h2>
+    <div class="popular-movies">
+      <img src="movies-collage.PNG" alt="Popular Movies Collage">
+      <p class="caption">Some of the most popular movies of all time as of late 2025. Which ones are your favorites?</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
